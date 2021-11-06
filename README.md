@@ -163,6 +163,8 @@ If you know how to use [Autohotkey](https://www.autohotkey.com/), you can downlo
 | Reset the App                                                       | `Ctrl+Win+r`       |
 
 
+<br>
+
 ## Toggle CapsLock
 
 | Function            | Hotkey         |
