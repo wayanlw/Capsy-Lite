@@ -50,93 +50,93 @@ If you know how to use [Autohotkey](https://www.autohotkey.com/), you can downlo
 
 ## Navigation Keys
 
-| Function                                                                           | Hotkey                            | Simulated Keys                                   |
-|------------------------------------------------------------------------------------|-----------------------------------|--------------------------------------------------|
-|  Up Arrow                                                                          | ` Capslock + i `                  | {Up}                                             |
-|  Left Arrow                                                                        | ` Capslock + j `                  | {Left}                                           |
-|  Down Arrow                                                                        | ` Capslock + k `                  | {Down}                                           |
-|  Right Arrow                                                                       | ` Capslock + l `                  | {Right}                                          |
-|  ----------------------------------------                                          | --------------------------------  | -----------------------------------------------  |
-|  Ctrl + Left Arrow                                                                 | ` Capslock + h `                  | {Ctrl}+{Left}                                    |
-|  Ctrl + Rigth Arrow                                                                | ` Capslock + ; `                  | {Ctrl}+{Right}                                   |
-|  ----------------------------------------                                          | --------------------------------  | -----------------------------------------------  |
-|  Page Up                                                                           | ` Capslock + u `                  | {pgUp}                                           |
-|  Page Down                                                                         | ` Capslock + o `                  | {pgDn}                                           |
-|  ----------------------------------------                                          | --------------------------------  | -----------------------------------------------  |
-|  Home (Go to the beginning of a line)                                              | ` Capslock + y `                  | {Home}                                           |
-|  End (Go to the end of a line)                                                     | ` Capslock + p `                  | {End}                                            |
-|  Go to the beginning of the page                                                   | ` Capslock + 5 `                  | {Ctrl}+{Home}                                    |
-|  Go to the beginning of the page                                                   | ` Capslock + 6 `                  | {Ctrl}+{End}                                     |
-|  ----------------------------------------                                          | --------------------------------  | -----------------------------------------------  |
-| * All navigation keys functions with holding Shift key for Selection/Highlighting. |
+| Function                                                                           | Hotkey           | Simulated Keys           |
+| ---------------------------------------------------------------------------------- | ---------------- | ------------------------ |
+| Up Arrow                                                                           | ` Capslock + i ` | {Up}                     |
+| Left Arrow                                                                         | ` Capslock + j ` | {Left}                   |
+| Down Arrow                                                                         | ` Capslock + k ` | {Down}                   |
+| Right Arrow                                                                        | ` Capslock + l ` | {Right}                  |
+| -----------------                                                                  | ---------        | ------------------------ |
+| Ctrl + Left Arrow                                                                  | ` Capslock + h ` | {Ctrl}+{Left}            |
+| Ctrl + Rigth Arrow                                                                 | ` Capslock + ; ` | {Ctrl}+{Right}           |
+| -----------------                                                                  | ---------        | ------------------------ |
+| Page Up                                                                            | ` Capslock + u ` | {pgUp}                   |
+| Page Down                                                                          | ` Capslock + o ` | {pgDn}                   |
+| -----------------                                                                  | ---------        | ------------------------ |
+| Home (Go to the beginning of a line)                                               | ` Capslock + y ` | {Home}                   |
+| End (Go to the end of a line)                                                      | ` Capslock + p ` | {End}                    |
+| Go to the beginning of the page                                                    | ` Capslock + 5 ` | {Ctrl}+{Home}            |
+| Go to the beginning of the page                                                    | ` Capslock + 6 ` | {Ctrl}+{End}             |
+| -----------------                                                                  | ---------        | ------------------------ |
+| * All navigation keys functions with holding Shift key for Selection/Highlighting. |                  |                          |
 
 
 <br>
 
 ## Action Keys
-| Function                                                        | Hotkey                            | Simulated Keys                                   |
-|-----------------------------------------------------------------|-----------------------------------|--------------------------------------------------|
-| Escape                                                          | ` Capslock + q `                  | {Esc}                                            |
-| Enter (Using Left Hand)                                         | ` Capslock + c `                  | {Enter}                                          |
-| Delete                                                          | ` Capslock + v `                  | {Delete}                                         |
-| BackSpace                                                       | ` Capslock + b `                  | {BS}                                             |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-| Backspace (Right Hand)                                          | ` Capslock + n `                  | {BS}                                             |
-|  Backspace preceding word                                       | ` Capslock + m `                  | {Ctrl}+{BS}                                      |
-|  Delete                                                         | ` Capslock + , `                  | {Delete}                                         |
-|  Delete the next word                                           | ` Capslock + . `                  | {Ctrl}+{Delete}                                  |
-| Enter (Using Right Hand)                                        | ` Capslock + / `                  | {Enter}                                          |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-|  Undo                                                           | ` Capslock + e `                  | {Ctrl}+z                                         |
-|  Redo                                                           | ` Capslock + r `                  | {Ctrl}+y                                         |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-|  Cut                                                            | ` Capslock + s `                  | {Ctrl}+x                                         |
-|  Copy                                                           | ` Capslock + d `                  | {Ctrl}+c                                         |
-|  Paste                                                          | ` Capslock + f `                  | {Ctrl}+v                                         |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-|  Delete Line                                                    | ` Capslock + g `                  | {Home}  {Shift}+{End}  {del}                     |
-|  Copy Line                                                      | ` Capslock + g (pressed twice) `  | {Home}  {Shift}+{End}  {Ctrl}+c                  |
-|  Select Line                                                    | ` Capslock + g (hold) `           | {Home}  {Shift}+{End}                            |
-|  Select and Copy current word                                   | ` capslock + t `                  | {Ctrl}+{Left}  {Shift}+{Ctrl}+{Right}  {Ctrl}+c  |
-|  Delete current word                                            | ` capslock + t (pressed twice) `  | {Ctrl}+{Left}  {Shift}+{Ctrl}+{Right}  {del}+    |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-|  Copy Line                                                      | ` Capslock + g `                  | {Home}  {Shift}+{End}  {Ctrl}+c                  |
-|  Delete Line                                                    | ` Capslock + g (pressed twice) `  | {Home}  {Shift}+{End}  {del}                     |
-|  Select Line                                                    | ` Capslock + g (hold) `           | {Home}  {Shift}+{End}                            |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-|  Sorround the selection with curly braces                       | ` Capslock + space + [ `          | Converts xxx in to {xxx}                         |
-|  Sorround with Parnthesis                                       | ` Capslock + space + ( `          | Converts xxx in to (xxx)                         |
-|  Sorround with Quotation Marks                                  | ` Capslock + space + ' `          | Converts xxx in to "xxx"                         |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-|  Save                                                           | ` Capslock + a `                  | {Ctrl}+s                                         |
-|  Save as                                                        | ` Capslock + a (pressed twice) `  | {Ctrl}+{Shift}+s                                 |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-| Cycle open applications                                         | Capslock + z                      | {Alt}+{Tab}                                      |
-|  ----------------------------------------                       | --------------------------------  | -----------------------------------------------  |
-| Find                                                            | Capslock + x                      | {Ctrl}+f                                         |
-| Find selection (pastes the current selection to the search box) | Capslock + x (Long press)         | {Ctrl}+c {Ctrl}+f                                |
+| Function                                                        | Hotkey                           | Simulated Keys                                  |
+| --------------------------------------------------------------- | -------------------------------- | ----------------------------------------------- |
+| Escape                                                          | ` Capslock + q `                 | {Esc}                                           |
+| Enter (Using Left Hand)                                         | ` Capslock + c `                 | {Enter}                                         |
+| Delete                                                          | ` Capslock + v `                 | {Delete}                                        |
+| BackSpace                                                       | ` Capslock + b `                 | {BS}                                            |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Backspace (Right Hand)                                          | ` Capslock + n `                 | {BS}                                            |
+| Backspace preceding word                                        | ` Capslock + m `                 | {Ctrl}+{BS}                                     |
+| Delete                                                          | ` Capslock + , `                 | {Delete}                                        |
+| Delete the next word                                            | ` Capslock + . `                 | {Ctrl}+{Delete}                                 |
+| Enter (Using Right Hand)                                        | ` Capslock + / `                 | {Enter}                                         |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Undo                                                            | ` Capslock + e `                 | {Ctrl}+z                                        |
+| Redo                                                            | ` Capslock + r `                 | {Ctrl}+y                                        |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Cut                                                             | ` Capslock + s `                 | {Ctrl}+x                                        |
+| Copy                                                            | ` Capslock + d `                 | {Ctrl}+c                                        |
+| Paste                                                           | ` Capslock + f `                 | {Ctrl}+v                                        |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Delete Line                                                     | ` Capslock + g `                 | {Home}  {Shift}+{End}  {del}                    |
+| Copy Line                                                       | ` Capslock + g (pressed twice) ` | {Home}  {Shift}+{End}  {Ctrl}+c                 |
+| Select Line                                                     | ` Capslock + g (hold) `          | {Home}  {Shift}+{End}                           |
+| Select and Copy current word                                    | ` capslock + t `                 | {Ctrl}+{Left}  {Shift}+{Ctrl}+{Right}  {Ctrl}+c |
+| Delete current word                                             | ` capslock + t (pressed twice) ` | {Ctrl}+{Left}  {Shift}+{Ctrl}+{Right}  {del}+   |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Copy Line                                                       | ` Capslock + g `                 | {Home}  {Shift}+{End}  {Ctrl}+c                 |
+| Delete Line                                                     | ` Capslock + g (pressed twice) ` | {Home}  {Shift}+{End}  {del}                    |
+| Select Line                                                     | ` Capslock + g (hold) `          | {Home}  {Shift}+{End}                           |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Sorround the selection with curly braces                        | ` Capslock + space + [ `         | Converts xxx in to {xxx}                        |
+| Sorround with Parnthesis                                        | ` Capslock + space + ( `         | Converts xxx in to (xxx)                        |
+| Sorround with Quotation Marks                                   | ` Capslock + space + ' `         | Converts xxx in to "xxx"                        |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Save                                                            | ` Capslock + a `                 | {Ctrl}+s                                        |
+| Save as                                                         | ` Capslock + a (pressed twice) ` | {Ctrl}+{Shift}+s                                |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Cycle open applications                                         | `Capslock + z `                    | {Alt}+{Tab}                                     |
+| -----------------                                               | ---------                        | ------------------------                        |
+| Find                                                            | `Capslock + x`                     | {Ctrl}+f                                        |
+| Find selection (pastes the current selection to the search box) | `Capslock + x (Long press`)        | {Ctrl}+c {Ctrl}+f                               |
 
 
 <br>
 
 ## Special key combinations
 
-| Function                                            | Hotkey                        | Simulated Keys                                                          |
-|-----------------------------------------------------|-------------------------------|-------------------------------------------------------------------------|
-| Shift (Can be used in combinations with other keys) | `Capslock + Tab `             | {Shift}                                                                 |
-| ---------------------------                         | ---------------------------   | ---------------------------                                             |
-| Enter Blank line below                              | `capslock + enter `           | {End}{enter}                                                            |
-| Enter Blank line above                              | `capslock + space + enter `   | {Home}{enter}{Up}                                                       |
-| ---------------------------                         | ---------------------------   | ---------------------------                                             |
-| Duplicate the current line                          | `capslock + PgUp `            | {Home}   {Shift}+{End}  {Ctrl}+c  {End}  {Enter}  {Ctrl}+v  {up}  {End} |
-| Duplicate the current line Down                     | `capslock + PgDown `          | {Home}   {Shift}+{End}  {Ctrl}+c  {End}  {Enter} {Ctrl}+v               |
-| ---------------------------                         | ---------------------------   | ---------------------------                                             |
+| Function                                            | Hotkey                      | Simulated Keys                                                          |
+| --------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------- |
+| Shift (Can be used in combinations with other keys) | `Capslock + Tab `           | {Shift}                                                                 |
+| ----                                                | ----                        | ----                                                                    |
+| Enter Blank line below                              | `capslock + enter `         | {End}{enter}                                                            |
+| Enter Blank line above                              | `capslock + space + enter ` | {Home}{enter}{Up}                                                       |
+| ----                                                | ----                        | ----                                                                    |
+| Duplicate the current line                          | `capslock + PgUp `          | {Home}   {Shift}+{End}  {Ctrl}+c  {End}  {Enter}  {Ctrl}+v  {up}  {End} |
+| Duplicate the current line Down                     | `capslock + PgDown `        | {Home}   {Shift}+{End}  {Ctrl}+c  {End}  {Enter} {Ctrl}+v               |
+| ----                                                | ----                        | ----                                                                    |
 
 <br>
 
 ## Web Search
-| Function                     | Hotkey              |
-|------------------------------|---------------------|
+| Function                     | Hotkey              |
+| ---------------------------- | ------------------- |
 | Search Web                   | ` Win + s `         |
 | Search selection in Web      | ` Win + Shift + s ` |
 | Serach Youtube               | ` Win + y `         |
@@ -145,29 +145,29 @@ If you know how to use [Autohotkey](https://www.autohotkey.com/), you can downlo
 <br>
 
 ## Window Management
-| Function                 | Hotkey                                                                                   | Simulated Keys |
-|--------------------------|------------------------------------------------------------------------------------------|----------------|
+| Function                 | Hotkey                                                                                   | Simulated Keys |
+| ------------------------ | ---------------------------------------------------------------------------------------- | -------------- |
 | Close tab / instance     | `Alt + q `                                                                               | {Ctrl}+{w}     |
 | Exit Current Application | `Alt + Shift + q `                                                                       | {Alt}+{F4}     |
-| Move windows             | Drag the window from anywhere with the right mouse button whilst holding the Capsloc Key |
+| Move windows             | Drag the window from anywhere with the right mouse button whilst holding the Capsloc Key |                |
 
 <br>
 
 ## Quick copy text
 
-| Function                                                            | Hotkey           |
-|---------------------------------------------------------------------|------------------|
-| Quick copy to Notepad                                               | Ctrl+Alt+C       |
-| Select the App to be copied to (Activate the app before the hotkey) | Ctrl+Win+Shift+z |
-| Copy selection to the selected app                                  | Shift+Alt + c    |
-| Reset the App                                                       | Ctrl+Win+R       |
+| Function                                                            | Hotkey           |
+| ------------------------------------------------------------------- | ---------------- |
+| Quick copy to Notepad                                               | `Ctrl+Alt+c`       |
+| Select the App to be copied to (Activate the app before the hotkey) | `Ctrl+Win+Shift+z` |
+| Copy selection to the selected app                                  | `Shift+Alt+c`    |
+| Reset the App                                                       | `Ctrl+Win+r`       |
 
 
 ## Toggle CapsLock
 
-| Function            | Hotkey         |
-|---------------------|----------------|
-| Toggle Capslock key | win + capslock |
-| Exit 				  | Right Ctrl + q |
+| Function            | Hotkey         |
+| ------------------- | -------------- |
+| Toggle Capslock key | `win + capslock` |
+| Exit                | `Right Ctrl + q` |
 
 <br>
